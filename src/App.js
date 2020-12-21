@@ -76,6 +76,7 @@ export class App extends Component {
           <h4 className="ex-title">Spotcheck 2</h4>
           <div className="exercise" id="spotcheck-2">
             <Nav />
+            <Dummy />
             {/* your code here... */}
           </div>
         </div>
@@ -90,6 +91,7 @@ export class App extends Component {
         <div className="ex-space">
           <h4 className="ex-title">Spotcheck 4</h4>
           <div className="exercise" id="spotcheck-4">
+            <Spamalot />
             {/* your code here... */}
           </div>
         </div>
@@ -118,6 +120,9 @@ export class App extends Component {
         <div className="ex-space">
           <h4 className="ex-title">Exercise 4</h4>
           <div className="exercise" id="ex-4">
+            <NavBar />
+            <Menu />
+            <Checkout />
             {/* your code here... */}
           </div>
         </div>
